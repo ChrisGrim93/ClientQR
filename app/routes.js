@@ -2,7 +2,7 @@ var express = require('express')
 var router = express.Router()
 
 router.get('/', function (req, res) {
-  res.render('qr')
+  res.render('qr_test')
 })
 
 // Example routes - feel free to delete these
