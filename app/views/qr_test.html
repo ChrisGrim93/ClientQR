@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  GOV.UK prototype kit
+{% endblock %}
+
+{% block content %}
+
+<!-- Stuff goes here -->
+<script type="text/javascript" src="javascripts/grid.js"></script>
+<script type="text/javascript" src="javascripts/version.js"></script>
+<script type="text/javascript" src="javascripts/detector.js"></script>
+<script type="text/javascript" src="javascripts/formatinf.js"></script>
+<script type="text/javascript" src="javascripts/errorlevel.js"></script>
+<script type="text/javascript" src="javascripts/bitmat.js"></script>
+<script type="text/javascript" src="javascripts/datablock.js"></script>
+<script type="text/javascript" src="javascripts/bmparser.js"></script>
+<script type="text/javascript" src="javascripts/datamask.js"></script>
+<script type="text/javascript" src="javascripts/rsdecoder.js"></script>
+<script type="text/javascript" src="javascripts/gf256poly.js"></script>
+<script type="text/javascript" src="javascripts/gf256.js"></script>
+<script type="text/javascript" src="javascripts/decoder.js"></script>
+<script type="text/javascript" src="javascripts/qrcode.js"></script>
+<script type="text/javascript" src="javascripts/findpat.js"></script>
+<script type="text/javascript" src="javascripts/alignpat.js"></script>
+<script type="text/javascript" src="javascripts/databr.js"></script>
+<script type="text/javascript" src="javascripts/qr.js"></script>
+
+<div align="center" id="qr-scanner">
+  <video id="qr-scanner-video" autoplay></video>
+  <canvas id="qr-canvas"></canvas>
+</div>
+
+
+{% endblock %}
